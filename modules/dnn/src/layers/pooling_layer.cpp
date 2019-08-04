@@ -168,7 +168,14 @@ public:
 
     virtual bool supportBackend(int backendId) CV_OVERRIDE
     {
-        if (backendId == DNN_BACKEND_INFERENCE_ENGINE)
+        if (backendId == DNN_BACKEND_CUDA)
+        {
+            if (!haveCUDA())
+                return false;
+
+            return type == MAX || type == AVE;
+        }
+        else if (backendId == DNN_BACKEND_INFERENCE_ENGINE)
         {
 #ifdef HAVE_INF_ENGINE
             if (kernel_size.size() == 3)
@@ -189,9 +196,6 @@ public:
         }
         else
         {
-            if (backendId == DNN_BACKEND_CUDA)
-                return (type == MAX || type == AVE);
-
             if (kernel_size.size() == 3)
                 return (backendId == DNN_BACKEND_OPENCV && preferableTarget == DNN_TARGET_CPU);
             if (kernel_size.empty() || kernel_size.size() == 2)
