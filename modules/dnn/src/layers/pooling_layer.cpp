@@ -296,20 +296,10 @@ public:
     }
 
 #ifdef HAVE_CUDA
-    void forwardCUDA(
-        std::vector<cv::Ptr<BackendWrapper>>& inputs,
-        std::vector<cv::Ptr<BackendWrapper>>& outputs,
-        csl::Workspace& workspace
-    ) override
-    {
-        cudaNode->forward(inputs, outputs, workspace);
-    }
-
-    void initCUDA(
+    Ptr<BackendNode> initCUDA(
         csl::Stream stream,
         csl::cublas::Handle cublas_handle,
         csl::cudnn::Handle cudnn_handle,
-        std::size_t& scratch_mem_in_bytes,
         const std::vector<Ptr<BackendWrapper>>& inputs
     ) override
     {
@@ -344,8 +334,7 @@ public:
 
             config.input_shape.assign(std::begin(input_shape), std::end(input_shape));
 
-            cudaNode = make_cuda_node<cuda4dnn::MaxPoolingOp>(preferableTarget, std::move(stream), config);
-            return;
+            return make_cuda_node<cuda4dnn::MaxPoolingOp>(preferableTarget, std::move(stream), config);
         }
 
         PoolingConfiguration config;
@@ -395,10 +384,8 @@ public:
 
         config.input_shape.assign(std::begin(input_shape), std::end(input_shape));
 
-        cudaNode = make_cuda_node<cuda4dnn::PoolingOp>(preferableTarget, std::move(cudnn_handle), config);
+        return make_cuda_node<cuda4dnn::PoolingOp>(preferableTarget, std::move(cudnn_handle), config);
     }
-
-    std::unique_ptr<CUDABackendNode> cudaNode;
 #endif
 
     virtual Ptr<BackendNode> initVkCom(const std::vector<Ptr<BackendWrapper> > &inputs) CV_OVERRIDE
