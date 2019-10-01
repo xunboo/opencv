@@ -96,7 +96,7 @@ static bool ocl_cvtColor( InputArray _src, OutputArray _dst, int code, int dcn )
 
     case COLOR_YCrCb2BGR:
     case COLOR_YCrCb2RGB:
-        return oclCvtcolorYCrCb2BGR(_src, _dst, dcn, bidx);
+        return oclCvtcolorYCrCb2BGR(_src, _dst, 3, bidx);
 
     case COLOR_BGR2XYZ:
     case COLOR_RGB2XYZ:
