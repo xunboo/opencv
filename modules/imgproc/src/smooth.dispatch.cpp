@@ -487,13 +487,15 @@ void GaussianBlur(InputArray _src, OutputArray _dst, Size ksize,
     Size size = _src.size();
     _dst.create( size, type );
 
-    if( (borderType & ~BORDER_ISOLATED) != BORDER_CONSTANT &&
-        ((borderType & BORDER_ISOLATED) != 0 || !_src.getMat().isSubmatrix()) )
-    {
-        if( size.height == 1 )
-            ksize.height = 1;
-        if( size.width == 1 )
-            ksize.width = 1;
+    if (size.height == 1 || size.width == 1) {  //isSubmatrix is slow for UMAT
+        if ((borderType & ~BORDER_ISOLATED) != BORDER_CONSTANT &&
+            ((borderType & BORDER_ISOLATED) != 0 || !_src.getMat().isSubmatrix()))
+        {
+            if (size.height == 1)
+                ksize.height = 1;
+            if (size.width == 1)
+                ksize.width = 1;
+        }
     }
 
     if( ksize.width == 1 && ksize.height == 1 )
