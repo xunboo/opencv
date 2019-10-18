@@ -177,6 +177,8 @@ public:
         }
         else if (backendId == DNN_BACKEND_INFERENCE_ENGINE)
         {
+            if (computeMaxIdx)
+                return false;
 #ifdef HAVE_INF_ENGINE
             if (kernel_size.size() == 3)
                 return preferableTarget == DNN_TARGET_CPU;

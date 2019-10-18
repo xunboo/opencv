@@ -255,7 +255,7 @@ namespace cv { namespace debug_build_guard { } using namespace debug_build_guard
 #define CV_CPU_AVX512_KNL       258
 #define CV_CPU_AVX512_KNM       259
 #define CV_CPU_AVX512_CNL       260
-#define CV_CPU_AVX512_CEL       261
+#define CV_CPU_AVX512_CLX       261
 #define CV_CPU_AVX512_ICL       262
 
 // when adding to this list remember to update the following enum
@@ -306,7 +306,7 @@ enum CpuFeatures {
     CPU_AVX512_KNL      = 258, //!< Knights Landing with AVX-512F/CD/ER/PF
     CPU_AVX512_KNM      = 259, //!< Knights Mill with AVX-512F/CD/ER/PF/4FMAPS/4VNNIW/VPOPCNTDQ
     CPU_AVX512_CNL      = 260, //!< Cannon Lake with AVX-512F/CD/BW/DQ/VL/IFMA/VBMI
-    CPU_AVX512_CEL      = 261, //!< Cascade Lake with AVX-512F/CD/BW/DQ/VL/IFMA/VBMI/VNNI
+    CPU_AVX512_CLX      = 261, //!< Cascade Lake with AVX-512F/CD/BW/DQ/VL/VNNI
     CPU_AVX512_ICL      = 262, //!< Ice Lake with AVX-512F/CD/BW/DQ/VL/IFMA/VBMI/VNNI/VBMI2/BITALG/VPOPCNTDQ
 
     CPU_MAX_FEATURE     = 512  // see CV_HARDWARE_MAX_FEATURE
@@ -695,6 +695,7 @@ __CV_ENUM_FLAGS_BITWISE_XOR_EQ   (EnumType, EnumType)                           
 #endif
 
 #define CV_CXX_MOVE_SEMANTICS 1
+#define CV_CXX_MOVE(x) std::move(x)
 #define CV_CXX_STD_ARRAY 1
 #include <array>
 #ifndef CV_OVERRIDE
