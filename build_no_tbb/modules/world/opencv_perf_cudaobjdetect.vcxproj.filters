@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\cudaobjdetect\perf\perf_main.cpp">
+      <Filter>opencv_cudaobjdetect\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\cudaobjdetect\perf\perf_objdetect.cpp">
+      <Filter>opencv_cudaobjdetect\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\cudaobjdetect\perf\perf_precomp.hpp">
+      <Filter>opencv_cudaobjdetect\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Source\opencv_cuda4dnn\modules\world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_cudaobjdetect">
+      <UniqueIdentifier>{03F7912F-69F2-3C85-8E81-26ACFE5D44EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_cudaobjdetect\Include">
+      <UniqueIdentifier>{91CB6EA2-C388-384F-BC67-89AC22676738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_cudaobjdetect\Src">
+      <UniqueIdentifier>{A07E7C48-302C-3A49-ACA8-AB7F0E1E047C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

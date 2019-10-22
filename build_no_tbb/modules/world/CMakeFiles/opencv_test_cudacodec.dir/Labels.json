@@ -1,0 +1,42 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Source/opencv/opencv_contrib-4.1.1/modules/cudacodec/test/test_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudacodec",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "C:/Source/opencv/opencv_contrib-4.1.1/modules/cudacodec/test/test_video.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudacodec",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "C:/Source/opencv/opencv_contrib-4.1.1/modules/cudacodec/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudacodec",
+				"AccuracyTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_cudacodec",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_cudacodec"
+	}
+}

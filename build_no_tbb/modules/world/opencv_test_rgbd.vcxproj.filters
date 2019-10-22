@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\rgbd\test\test_kinfu.cpp">
+      <Filter>opencv_rgbd\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\rgbd\test\test_main.cpp">
+      <Filter>opencv_rgbd\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\rgbd\test\test_normal.cpp">
+      <Filter>opencv_rgbd\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\rgbd\test\test_odometry.cpp">
+      <Filter>opencv_rgbd\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\rgbd\test\test_registration.cpp">
+      <Filter>opencv_rgbd\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\rgbd\test\test_utils.cpp">
+      <Filter>opencv_rgbd\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\rgbd\test\test_precomp.hpp">
+      <Filter>opencv_rgbd\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Source\opencv_cuda4dnn\modules\world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_rgbd">
+      <UniqueIdentifier>{19F02F5D-9A9C-33B1-A079-B8FBC3387063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_rgbd\Include">
+      <UniqueIdentifier>{EE591794-C1D9-39FE-BF23-17A18391FF2F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_rgbd\Src">
+      <UniqueIdentifier>{ABD319F2-5367-33B9-9165-21236AD97CC6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

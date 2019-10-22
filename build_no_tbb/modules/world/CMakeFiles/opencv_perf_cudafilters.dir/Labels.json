@@ -1,0 +1,42 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Source/opencv/opencv_contrib-4.1.1/modules/cudafilters/perf/perf_filters.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudafilters",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "C:/Source/opencv/opencv_contrib-4.1.1/modules/cudafilters/perf/perf_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudafilters",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "C:/Source/opencv/opencv_contrib-4.1.1/modules/cudafilters/perf/perf_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudafilters",
+				"PerfTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_cudafilters",
+			"PerfTest"
+		],
+		"name" : "opencv_perf_cudafilters"
+	}
+}

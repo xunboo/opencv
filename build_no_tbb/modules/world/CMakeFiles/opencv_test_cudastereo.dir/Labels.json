@@ -1,0 +1,42 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Source/opencv/opencv_contrib-4.1.1/modules/cudastereo/test/test_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudastereo",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "C:/Source/opencv/opencv_contrib-4.1.1/modules/cudastereo/test/test_stereo.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudastereo",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "C:/Source/opencv/opencv_contrib-4.1.1/modules/cudastereo/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudastereo",
+				"AccuracyTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_cudastereo",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_cudastereo"
+	}
+}

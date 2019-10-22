@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\reg\perf\perf_main.cpp">
+      <Filter>opencv_reg\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\reg\perf\perf_reg.cpp">
+      <Filter>opencv_reg\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\reg\perf\perf_precomp.hpp">
+      <Filter>opencv_reg\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Source\opencv_cuda4dnn\modules\world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_reg">
+      <UniqueIdentifier>{F3310D30-EE9D-3E59-BC4A-458250149B76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_reg\Include">
+      <UniqueIdentifier>{E119564C-D6A1-3EE1-9D27-507FF6338F99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_reg\Src">
+      <UniqueIdentifier>{BDFADB08-76E6-339D-A1C5-0067A00DA3BD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

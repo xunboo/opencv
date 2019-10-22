@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\mathfuncs_core.avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\stat.avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\arithm.avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\convert.avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\convert_scale.avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\count_non_zero.avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\matmul.avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\mean.avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\merge.avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\split.avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\sum.avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\imgproc\src\imgwarp.avx2.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\imgproc\src\resize.avx2.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\accum.avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\bilateral_filter.avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\box_filter.avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\filter.avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\color_hsv.avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\color_rgb.avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\color_yuv.avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\median_blur.avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\morph.avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\smooth.avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\layers\layers_common.avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\features2d\src\fast.avx2.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\undistort.avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Source\opencv_cuda4dnn\modules\world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DBD420DC-58AE-3C71-B060-BC14944081D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d">
+      <UniqueIdentifier>{4584578D-F0D6-3220-A308-916350961FF3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Src">
+      <UniqueIdentifier>{595D2987-D51D-34F3-A151-8D43745CA66B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc">
+      <UniqueIdentifier>{F5B857D3-4C8F-3647-A147-F1F6B0191C81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Src">
+      <UniqueIdentifier>{241EF9CF-9A3F-38B1-954C-FDADAD4B4F69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

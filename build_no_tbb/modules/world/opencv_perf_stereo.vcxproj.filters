@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\stereo\perf\perf_bm.cpp">
+      <Filter>opencv_stereo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\stereo\perf\perf_descriptor.cpp">
+      <Filter>opencv_stereo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\stereo\perf\perf_main.cpp">
+      <Filter>opencv_stereo\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\stereo\perf\perf_precomp.hpp">
+      <Filter>opencv_stereo\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Source\opencv_cuda4dnn\modules\world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_stereo">
+      <UniqueIdentifier>{E340B599-4DBB-3E7E-A928-ED2C197DBFD1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stereo\Include">
+      <UniqueIdentifier>{04A9EB4A-BE64-389D-847D-D4E62A4C8A01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stereo\Src">
+      <UniqueIdentifier>{E32DE309-6606-341F-ABF2-D7C41A562461}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

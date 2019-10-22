@@ -1,0 +1,17 @@
+# Target labels
+ Extra
+ opencv_cudabgsegm
+ PerfTest
+# Source files and their labels
+C:/Source/opencv/opencv_contrib-4.1.1/modules/cudabgsegm/perf/perf_bgsegm.cpp
+ Extra
+ opencv_cudabgsegm
+ PerfTest
+C:/Source/opencv/opencv_contrib-4.1.1/modules/cudabgsegm/perf/perf_main.cpp
+ Extra
+ opencv_cudabgsegm
+ PerfTest
+C:/Source/opencv/opencv_contrib-4.1.1/modules/cudabgsegm/perf/perf_precomp.hpp
+ Extra
+ opencv_cudabgsegm
+ PerfTest

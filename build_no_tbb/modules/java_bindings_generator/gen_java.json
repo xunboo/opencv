@@ -1,0 +1,35 @@
+{
+  "rootdir": "C:/Source/opencv_cuda4dnn",
+  "modules": [
+    { "name": "core", "location": "modules/core" },
+    { "name": "imgproc", "location": "modules/imgproc" },
+    { "name": "ml", "location": "modules/ml" },
+    { "name": "phase_unwrapping", "location": "../opencv/opencv_contrib-4.1.1/modules/phase_unwrapping" },
+    { "name": "plot", "location": "../opencv/opencv_contrib-4.1.1/modules/plot" },
+    { "name": "dnn", "location": "modules/dnn" },
+    { "name": "features2d", "location": "modules/features2d" },
+    { "name": "imgcodecs", "location": "modules/imgcodecs" },
+    { "name": "photo", "location": "modules/photo" },
+    { "name": "videoio", "location": "modules/videoio" },
+    { "name": "xphoto", "location": "../opencv/opencv_contrib-4.1.1/modules/xphoto" },
+    { "name": "calib3d", "location": "modules/calib3d" },
+    { "name": "highgui", "location": "modules/highgui" },
+    { "name": "objdetect", "location": "modules/objdetect" },
+    { "name": "structured_light", "location": "../opencv/opencv_contrib-4.1.1/modules/structured_light" },
+    { "name": "text", "location": "../opencv/opencv_contrib-4.1.1/modules/text" },
+    { "name": "video", "location": "modules/video" },
+    { "name": "xfeatures2d", "location": "../opencv/opencv_contrib-4.1.1/modules/xfeatures2d" },
+    { "name": "ximgproc", "location": "../opencv/opencv_contrib-4.1.1/modules/ximgproc" },
+    { "name": "aruco", "location": "../opencv/opencv_contrib-4.1.1/modules/aruco" },
+    { "name": "bgsegm", "location": "../opencv/opencv_contrib-4.1.1/modules/bgsegm" },
+    { "name": "bioinspired", "location": "../opencv/opencv_contrib-4.1.1/modules/bioinspired" },
+    { "name": "face", "location": "../opencv/opencv_contrib-4.1.1/modules/face" },
+    { "name": "tracking", "location": "../opencv/opencv_contrib-4.1.1/modules/tracking" },
+    { "name": "img_hash", "location": "../opencv/opencv_contrib-4.1.1/modules/img_hash" }
+  ],
+  "files_remap": [
+    { "src": "modules/java/generator/android/java/org/opencv/android/OpenCVLoader.java.in", "target": "C:/Source/opencv_cuda4dnn/build_no_tbb/configured/modules/java/generator/android/java/org/opencv/android/OpenCVLoader.java" },
+    { "src": "modules/java/generator/src/java/org/opencv/osgi/OpenCVNativeLoader.java.in", "target": "C:/Source/opencv_cuda4dnn/build_no_tbb/configured/modules/java/generator/src/java/org/opencv/osgi/OpenCVNativeLoader.java" },
+    { "src": "modules/core/misc/java/src/java/core+Core.jcode.in", "target": "C:/Source/opencv_cuda4dnn/build_no_tbb/configured/modules/core/misc/java/src/java/core+Core.jcode" }
+  ]
+}

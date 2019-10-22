@@ -1,0 +1,17 @@
+# Target labels
+ Extra
+ opencv_cudafeatures2d
+ AccuracyTest
+# Source files and their labels
+C:/Source/opencv/opencv_contrib-4.1.1/modules/cudafeatures2d/test/test_features2d.cpp
+ Extra
+ opencv_cudafeatures2d
+ AccuracyTest
+C:/Source/opencv/opencv_contrib-4.1.1/modules/cudafeatures2d/test/test_main.cpp
+ Extra
+ opencv_cudafeatures2d
+ AccuracyTest
+C:/Source/opencv/opencv_contrib-4.1.1/modules/cudafeatures2d/test/test_precomp.hpp
+ Extra
+ opencv_cudafeatures2d
+ AccuracyTest

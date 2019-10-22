@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\cudafeatures2d\perf\perf_features2d.cpp">
+      <Filter>opencv_cudafeatures2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\cudafeatures2d\perf\perf_main.cpp">
+      <Filter>opencv_cudafeatures2d\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\cudafeatures2d\perf\perf_precomp.hpp">
+      <Filter>opencv_cudafeatures2d\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Source\opencv_cuda4dnn\modules\world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_cudafeatures2d">
+      <UniqueIdentifier>{BFE530DF-C1DE-3CAB-8CF4-5A6C3B16C300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_cudafeatures2d\Include">
+      <UniqueIdentifier>{7617FE92-0343-36C8-9932-9842A25CC0DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_cudafeatures2d\Src">
+      <UniqueIdentifier>{9945A87A-EC01-3BBE-8E7D-57726E9979EE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

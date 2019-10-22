@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\ocl\test_arithm.cpp">
+      <Filter>opencv_core\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\ocl\test_channels.cpp">
+      <Filter>opencv_core\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\ocl\test_dft.cpp">
+      <Filter>opencv_core\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\ocl\test_gemm.cpp">
+      <Filter>opencv_core\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\ocl\test_image2d.cpp">
+      <Filter>opencv_core\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\ocl\test_matrix_expr.cpp">
+      <Filter>opencv_core\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\ocl\test_matrix_operation.cpp">
+      <Filter>opencv_core\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\ocl\test_opencl.cpp">
+      <Filter>opencv_core\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_arithm.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_async.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_concatenation.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_conjugate_gradient.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_countnonzero.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_downhill_simplex.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_ds.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_dxt.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_eigen.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_hal_core.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_intrin.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_io.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_logtagconfigparser.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_logtagmanager.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_lpsolver.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_main.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_mat.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_math.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_misc.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_operations.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_ptr.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_rand.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_rotatedrect.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_umat.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_utils.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\test\test_intrin128.sse2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\test\test_intrin128.sse3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_intrin128.simd.hpp">
+      <Filter>opencv_core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_intrin256.simd.hpp">
+      <Filter>opencv_core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_intrin512.simd.hpp">
+      <Filter>opencv_core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_intrin_utils.hpp">
+      <Filter>opencv_core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Source\opencv_cuda4dnn\modules\core\test\test_precomp.hpp">
+      <Filter>opencv_core\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Source\opencv_cuda4dnn\modules\world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\opencv_test_core_SSE4_1.dir\$(Configuration)\test_intrin128.ssse3.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\opencv_test_core_SSE4_1.dir\$(Configuration)\test_intrin128.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\opencv_test_core_SSE4_2.dir\$(Configuration)\test_intrin128.sse4_2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\opencv_test_core_FP16.dir\$(Configuration)\test_intrin128.fp16.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\opencv_test_core_AVX.dir\$(Configuration)\test_intrin128.avx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\opencv_test_core_AVX2.dir\$(Configuration)\test_intrin128.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\opencv_test_core_AVX2.dir\$(Configuration)\test_intrin256.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\opencv_test_core_AVX512_SKX.dir\$(Configuration)\test_intrin128.avx512_skx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\opencv_test_core_AVX512_SKX.dir\$(Configuration)\test_intrin256.avx512_skx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\opencv_test_core_AVX512_SKX.dir\$(Configuration)\test_intrin512.avx512_skx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{6BA69D3C-B547-3BE8-A2E0-14345095EED0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DBD420DC-58AE-3C71-B060-BC14944081D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core">
+      <UniqueIdentifier>{F64B5908-3F6E-3E4D-B99A-5A307A1775E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Include">
+      <UniqueIdentifier>{0E4FA64D-27DC-3293-AD94-D14E1A6CFDA0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Src">
+      <UniqueIdentifier>{B1EE18E9-4F9E-3F3A-8DAA-E9C0B3CEDCA1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Src\ocl">
+      <UniqueIdentifier>{AA2D8325-240D-3B90-B3EB-FA3FF8BC0244}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

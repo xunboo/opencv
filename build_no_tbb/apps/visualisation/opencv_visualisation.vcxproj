@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{583930FD-A6CA-3EF9-99B9-650E4F5B21E3}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>opencv_visualisation</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Source\opencv_cuda4dnn\build_no_tbb\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_visualisation.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_visualisationd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Source\opencv_cuda4dnn\build_no_tbb\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_visualisation.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_visualisation</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Source\opencv_cuda4dnn\build_no_tbb\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">opencv_visualisation.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">opencv_visualisation</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\ippicv\ippicv_win\icv\include;C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\ippicv\ippicv_win\iw\include;C:\Source\opencv_cuda4dnn\build_no_tbb;C:\Source\opencv_cuda4dnn\modules\core\include;C:\Source\opencv\opencv_contrib-4.1.1\modules\cudev\include;C:\Source\opencv_cuda4dnn\modules\highgui\include;C:\Source\opencv_cuda4dnn\modules\imgproc\include;C:\Source\opencv_cuda4dnn\modules\imgcodecs\include;C:\Source\opencv_cuda4dnn\modules\videoio\include;C:\Source\opencv_cuda4dnn\apps\visualisation\PRIVATE;C:\Source\opencv_cuda4dnn\include\opencv;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019.5.281\windows\mkl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>8</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;_VARIADIC_MAX=10;__OPENCV_BUILD=1;__OPENCV_APPS=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;_VARIADIC_MAX=10;__OPENCV_BUILD=1;__OPENCV_APPS=1;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\ippicv\ippicv_win\icv\include;C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\ippicv\ippicv_win\iw\include;C:\Source\opencv_cuda4dnn\build_no_tbb;C:\Source\opencv_cuda4dnn\modules\core\include;C:\Source\opencv\opencv_contrib-4.1.1\modules\cudev\include;C:\Source\opencv_cuda4dnn\modules\highgui\include;C:\Source\opencv_cuda4dnn\modules\imgproc\include;C:\Source\opencv_cuda4dnn\modules\imgcodecs\include;C:\Source\opencv_cuda4dnn\modules\videoio\include;C:\Source\opencv_cuda4dnn\apps\visualisation\PRIVATE;C:\Source\opencv_cuda4dnn\include\opencv;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019.5.281\windows\mkl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\ippicv\ippicv_win\icv\include;C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\ippicv\ippicv_win\iw\include;C:\Source\opencv_cuda4dnn\build_no_tbb;C:\Source\opencv_cuda4dnn\modules\core\include;C:\Source\opencv\opencv_contrib-4.1.1\modules\cudev\include;C:\Source\opencv_cuda4dnn\modules\highgui\include;C:\Source\opencv_cuda4dnn\modules\imgproc\include;C:\Source\opencv_cuda4dnn\modules\imgcodecs\include;C:\Source\opencv_cuda4dnn\modules\videoio\include;C:\Source\opencv_cuda4dnn\apps\visualisation\PRIVATE;C:\Source\opencv_cuda4dnn\include\opencv;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019.5.281\windows\mkl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\3rdparty\lib\Debug\ippiwd.lib;..\..\3rdparty\ippicv\ippicv_win\icv\lib\intel64\ippicvmt.lib;cudart_static.lib;nppc.lib;nppial.lib;nppicc.lib;nppicom.lib;nppidei.lib;nppif.lib;nppig.lib;nppim.lib;nppist.lib;nppisu.lib;nppitc.lib;npps.lib;cublas.lib;x64.lib;cufft.lib;-LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64;-LIBPATH:C:/Source/cudnn-10.1-windows10-x64-v7.6.4.38/cuda/lib;..\..\lib\Debug\opencv_world412d.lib;cuda.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64/$(Configuration);C:/Source/cudnn-10.1-windows10-x64-v7.6.4.38/cuda/lib;C:/Source/cudnn-10.1-windows10-x64-v7.6.4.38/cuda/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Source/opencv_cuda4dnn/build_no_tbb/lib/Debug/opencv_visualisationd.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Source/opencv_cuda4dnn/build_no_tbb/bin/Debug/opencv_visualisationd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\ippicv\ippicv_win\icv\include;C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\ippicv\ippicv_win\iw\include;C:\Source\opencv_cuda4dnn\build_no_tbb;C:\Source\opencv_cuda4dnn\modules\core\include;C:\Source\opencv\opencv_contrib-4.1.1\modules\cudev\include;C:\Source\opencv_cuda4dnn\modules\highgui\include;C:\Source\opencv_cuda4dnn\modules\imgproc\include;C:\Source\opencv_cuda4dnn\modules\imgcodecs\include;C:\Source\opencv_cuda4dnn\modules\videoio\include;C:\Source\opencv_cuda4dnn\apps\visualisation\PRIVATE;C:\Source\opencv_cuda4dnn\include\opencv;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019.5.281\windows\mkl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>8</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;NOMINMAX;_VARIADIC_MAX=10;__OPENCV_BUILD=1;__OPENCV_APPS=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;NOMINMAX;_VARIADIC_MAX=10;__OPENCV_BUILD=1;__OPENCV_APPS=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\ippicv\ippicv_win\icv\include;C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\ippicv\ippicv_win\iw\include;C:\Source\opencv_cuda4dnn\build_no_tbb;C:\Source\opencv_cuda4dnn\modules\core\include;C:\Source\opencv\opencv_contrib-4.1.1\modules\cudev\include;C:\Source\opencv_cuda4dnn\modules\highgui\include;C:\Source\opencv_cuda4dnn\modules\imgproc\include;C:\Source\opencv_cuda4dnn\modules\imgcodecs\include;C:\Source\opencv_cuda4dnn\modules\videoio\include;C:\Source\opencv_cuda4dnn\apps\visualisation\PRIVATE;C:\Source\opencv_cuda4dnn\include\opencv;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019.5.281\windows\mkl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\ippicv\ippicv_win\icv\include;C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\ippicv\ippicv_win\iw\include;C:\Source\opencv_cuda4dnn\build_no_tbb;C:\Source\opencv_cuda4dnn\modules\core\include;C:\Source\opencv\opencv_contrib-4.1.1\modules\cudev\include;C:\Source\opencv_cuda4dnn\modules\highgui\include;C:\Source\opencv_cuda4dnn\modules\imgproc\include;C:\Source\opencv_cuda4dnn\modules\imgcodecs\include;C:\Source\opencv_cuda4dnn\modules\videoio\include;C:\Source\opencv_cuda4dnn\apps\visualisation\PRIVATE;C:\Source\opencv_cuda4dnn\include\opencv;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019.5.281\windows\mkl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\3rdparty\lib\Release\ippiw.lib;..\..\3rdparty\ippicv\ippicv_win\icv\lib\intel64\ippicvmt.lib;cudart_static.lib;nppc.lib;nppial.lib;nppicc.lib;nppicom.lib;nppidei.lib;nppif.lib;nppig.lib;nppim.lib;nppist.lib;nppisu.lib;nppitc.lib;npps.lib;cublas.lib;x64.lib;cufft.lib;-LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64;-LIBPATH:C:/Source/cudnn-10.1-windows10-x64-v7.6.4.38/cuda/lib;..\..\lib\Release\opencv_world412.lib;cuda.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64/$(Configuration);C:/Source/cudnn-10.1-windows10-x64-v7.6.4.38/cuda/lib;C:/Source/cudnn-10.1-windows10-x64-v7.6.4.38/cuda/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Source/opencv_cuda4dnn/build_no_tbb/lib/Release/opencv_visualisation.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Source/opencv_cuda4dnn/build_no_tbb/bin/Release/opencv_visualisation.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\ippicv\ippicv_win\icv\include;C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\ippicv\ippicv_win\iw\include;C:\Source\opencv_cuda4dnn\build_no_tbb;C:\Source\opencv_cuda4dnn\modules\core\include;C:\Source\opencv\opencv_contrib-4.1.1\modules\cudev\include;C:\Source\opencv_cuda4dnn\modules\highgui\include;C:\Source\opencv_cuda4dnn\modules\imgproc\include;C:\Source\opencv_cuda4dnn\modules\imgcodecs\include;C:\Source\opencv_cuda4dnn\modules\videoio\include;C:\Source\opencv_cuda4dnn\apps\visualisation\PRIVATE;C:\Source\opencv_cuda4dnn\include\opencv;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019.5.281\windows\mkl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>8</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;NOMINMAX;_VARIADIC_MAX=10;__OPENCV_BUILD=1;__OPENCV_APPS=1;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;NOMINMAX;_VARIADIC_MAX=10;__OPENCV_BUILD=1;__OPENCV_APPS=1;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\ippicv\ippicv_win\icv\include;C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\ippicv\ippicv_win\iw\include;C:\Source\opencv_cuda4dnn\build_no_tbb;C:\Source\opencv_cuda4dnn\modules\core\include;C:\Source\opencv\opencv_contrib-4.1.1\modules\cudev\include;C:\Source\opencv_cuda4dnn\modules\highgui\include;C:\Source\opencv_cuda4dnn\modules\imgproc\include;C:\Source\opencv_cuda4dnn\modules\imgcodecs\include;C:\Source\opencv_cuda4dnn\modules\videoio\include;C:\Source\opencv_cuda4dnn\apps\visualisation\PRIVATE;C:\Source\opencv_cuda4dnn\include\opencv;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019.5.281\windows\mkl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\ippicv\ippicv_win\icv\include;C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\ippicv\ippicv_win\iw\include;C:\Source\opencv_cuda4dnn\build_no_tbb;C:\Source\opencv_cuda4dnn\modules\core\include;C:\Source\opencv\opencv_contrib-4.1.1\modules\cudev\include;C:\Source\opencv_cuda4dnn\modules\highgui\include;C:\Source\opencv_cuda4dnn\modules\imgproc\include;C:\Source\opencv_cuda4dnn\modules\imgcodecs\include;C:\Source\opencv_cuda4dnn\modules\videoio\include;C:\Source\opencv_cuda4dnn\apps\visualisation\PRIVATE;C:\Source\opencv_cuda4dnn\include\opencv;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019.5.281\windows\mkl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\3rdparty\lib\RelWithDebInfo\ippiw.lib;..\..\3rdparty\ippicv\ippicv_win\icv\lib\intel64\ippicvmt.lib;cudart_static.lib;nppc.lib;nppial.lib;nppicc.lib;nppicom.lib;nppidei.lib;nppif.lib;nppig.lib;nppim.lib;nppist.lib;nppisu.lib;nppitc.lib;npps.lib;cublas.lib;x64.lib;cufft.lib;-LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64;-LIBPATH:C:/Source/cudnn-10.1-windows10-x64-v7.6.4.38/cuda/lib;..\..\lib\RelWithDebInfo\opencv_world412.lib;cuda.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64/$(Configuration);C:/Source/cudnn-10.1-windows10-x64-v7.6.4.38/cuda/lib;C:/Source/cudnn-10.1-windows10-x64-v7.6.4.38/cuda/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Source/opencv_cuda4dnn/build_no_tbb/lib/RelWithDebInfo/opencv_visualisation.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Source/opencv_cuda4dnn/build_no_tbb/bin/RelWithDebInfo/opencv_visualisation.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Source\opencv_cuda4dnn\apps\visualisation\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Source/opencv_cuda4dnn/apps/visualisation/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Source/opencv_cuda4dnn -BC:/Source/opencv_cuda4dnn/build_no_tbb --check-stamp-file C:/Source/opencv_cuda4dnn/build_no_tbb/apps/visualisation/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Source\opencv_cuda4dnn\build_no_tbb\apps\visualisation\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Source/opencv_cuda4dnn/apps/visualisation/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Source/opencv_cuda4dnn -BC:/Source/opencv_cuda4dnn/build_no_tbb --check-stamp-file C:/Source/opencv_cuda4dnn/build_no_tbb/apps/visualisation/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Source\opencv_cuda4dnn\build_no_tbb\apps\visualisation\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Source/opencv_cuda4dnn/apps/visualisation/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Source/opencv_cuda4dnn -BC:/Source/opencv_cuda4dnn/build_no_tbb --check-stamp-file C:/Source/opencv_cuda4dnn/build_no_tbb/apps/visualisation/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Source\opencv_cuda4dnn\build_no_tbb\apps\visualisation\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Source\opencv_cuda4dnn\apps\visualisation\opencv_visualisation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\ZERO_CHECK.vcxproj">
+      <Project>{F00D3967-229D-35D4-9EDF-5DBAB3A0E21B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\ippiw\ippiw.vcxproj">
+      <Project>{4900857E-B566-3C9B-B427-93931BF2A001}</Project>
+      <Name>ippiw</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\opencv_world.vcxproj">
+      <Project>{62DFE570-660F-32D8-8BE9-C0B1397C0BA8}</Project>
+      <Name>opencv_world</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

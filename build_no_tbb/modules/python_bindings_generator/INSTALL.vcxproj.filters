@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Source\opencv_cuda4dnn\build_no_tbb\CMakeFiles\4d54d734da09017d0b4f1f6204d3edae\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A7BFB6EE-6FCB-3B89-AB66-ADD3D63A126A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

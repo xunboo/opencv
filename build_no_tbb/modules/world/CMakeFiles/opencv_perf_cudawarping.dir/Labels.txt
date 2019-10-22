@@ -1,0 +1,17 @@
+# Target labels
+ Extra
+ opencv_cudawarping
+ PerfTest
+# Source files and their labels
+C:/Source/opencv/opencv_contrib-4.1.1/modules/cudawarping/perf/perf_main.cpp
+ Extra
+ opencv_cudawarping
+ PerfTest
+C:/Source/opencv/opencv_contrib-4.1.1/modules/cudawarping/perf/perf_warping.cpp
+ Extra
+ opencv_cudawarping
+ PerfTest
+C:/Source/opencv/opencv_contrib-4.1.1/modules/cudawarping/perf/perf_precomp.hpp
+ Extra
+ opencv_cudawarping
+ PerfTest

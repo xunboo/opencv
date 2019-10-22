@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\videostab\test\test_main.cpp">
+      <Filter>opencv_videostab\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\videostab\test\test_motion_estimation.cpp">
+      <Filter>opencv_videostab\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\videostab\test\test_precomp.hpp">
+      <Filter>opencv_videostab\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Source\opencv_cuda4dnn\modules\world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_videostab">
+      <UniqueIdentifier>{D594993C-C0B7-3520-8402-F35033B84BE4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_videostab\Include">
+      <UniqueIdentifier>{2E09B503-9AED-35CB-962A-2A488361AC07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_videostab\Src">
+      <UniqueIdentifier>{CA65A53E-4363-3FEB-8012-AE30AF170B06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

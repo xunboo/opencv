@@ -1,0 +1,17 @@
+# Target labels
+ Extra
+ opencv_cudabgsegm
+ AccuracyTest
+# Source files and their labels
+C:/Source/opencv/opencv_contrib-4.1.1/modules/cudabgsegm/test/test_bgsegm.cpp
+ Extra
+ opencv_cudabgsegm
+ AccuracyTest
+C:/Source/opencv/opencv_contrib-4.1.1/modules/cudabgsegm/test/test_main.cpp
+ Extra
+ opencv_cudabgsegm
+ AccuracyTest
+C:/Source/opencv/opencv_contrib-4.1.1/modules/cudabgsegm/test/test_precomp.hpp
+ Extra
+ opencv_cudabgsegm
+ AccuracyTest

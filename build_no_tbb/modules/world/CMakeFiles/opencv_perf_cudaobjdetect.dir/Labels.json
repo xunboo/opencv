@@ -1,0 +1,42 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Source/opencv/opencv_contrib-4.1.1/modules/cudaobjdetect/perf/perf_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudaobjdetect",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "C:/Source/opencv/opencv_contrib-4.1.1/modules/cudaobjdetect/perf/perf_objdetect.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudaobjdetect",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "C:/Source/opencv/opencv_contrib-4.1.1/modules/cudaobjdetect/perf/perf_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudaobjdetect",
+				"PerfTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_cudaobjdetect",
+			"PerfTest"
+		],
+		"name" : "opencv_perf_cudaobjdetect"
+	}
+}

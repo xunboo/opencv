@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\xphoto\test\dct_image_denoising.cpp">
+      <Filter>opencv_xphoto\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\xphoto\test\simple_color_balance.cpp">
+      <Filter>opencv_xphoto\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\xphoto\test\test_denoise_bm3d.cpp">
+      <Filter>opencv_xphoto\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\xphoto\test\test_grayworld.cpp">
+      <Filter>opencv_xphoto\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\xphoto\test\test_hdr.cpp">
+      <Filter>opencv_xphoto\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\xphoto\test\test_learning_based_color_balance.cpp">
+      <Filter>opencv_xphoto\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\xphoto\test\test_main.cpp">
+      <Filter>opencv_xphoto\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\xphoto\test\test_oil_painting.cpp">
+      <Filter>opencv_xphoto\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\xphoto\test\test_precomp.hpp">
+      <Filter>opencv_xphoto\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Source\opencv_cuda4dnn\modules\world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_xphoto">
+      <UniqueIdentifier>{FBC06EC6-8F50-397A-85B4-804EA6D82BCA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_xphoto\Include">
+      <UniqueIdentifier>{BE78B953-9D7B-3E4F-99C5-F15ABB6BB580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_xphoto\Src">
+      <UniqueIdentifier>{43159B6E-857B-3643-B003-8CCB4D80633F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

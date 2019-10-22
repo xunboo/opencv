@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Source\opencv_cuda4dnn\build_no_tbb\CMakeFiles\f02fbb0663819537c696dc20f455e65f\gen_opencv_java_source.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Source\opencv_cuda4dnn\build_no_tbb\CMakeFiles\b8ac207251d09d4333808255da5337c8\gen_opencv_java_source.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Source\opencv_cuda4dnn\modules\java\generator\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\java_bindings_generator\CMakeFiles\gen_opencv_java_source" />
+    <None Include="C:\Source\opencv_cuda4dnn\modules\java\generator\gen_java.py" />
+    <None Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\java_bindings_generator\gen_java.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A7BFB6EE-6FCB-3B89-AB66-ADD3D63A126A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

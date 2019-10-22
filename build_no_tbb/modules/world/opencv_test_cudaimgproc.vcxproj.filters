@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\cudaimgproc\test\test_bilateral_filter.cpp">
+      <Filter>opencv_cudaimgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\cudaimgproc\test\test_blend.cpp">
+      <Filter>opencv_cudaimgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\cudaimgproc\test\test_canny.cpp">
+      <Filter>opencv_cudaimgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\cudaimgproc\test\test_color.cpp">
+      <Filter>opencv_cudaimgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\cudaimgproc\test\test_corners.cpp">
+      <Filter>opencv_cudaimgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\cudaimgproc\test\test_gftt.cpp">
+      <Filter>opencv_cudaimgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\cudaimgproc\test\test_histogram.cpp">
+      <Filter>opencv_cudaimgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\cudaimgproc\test\test_hough.cpp">
+      <Filter>opencv_cudaimgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\cudaimgproc\test\test_main.cpp">
+      <Filter>opencv_cudaimgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\cudaimgproc\test\test_match_template.cpp">
+      <Filter>opencv_cudaimgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\cudaimgproc\test\test_mean_shift.cpp">
+      <Filter>opencv_cudaimgproc\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Source\opencv\opencv_contrib-4.1.1\modules\cudaimgproc\test\test_precomp.hpp">
+      <Filter>opencv_cudaimgproc\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Source\opencv_cuda4dnn\modules\world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_cudaimgproc">
+      <UniqueIdentifier>{4B77DD31-674D-32F7-AB42-B16FED7D0129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_cudaimgproc\Include">
+      <UniqueIdentifier>{18673065-49F8-309C-8E4F-B9806D17F50B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_cudaimgproc\Src">
+      <UniqueIdentifier>{C40273C2-2311-3B56-A44E-BC9F76F3E05A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

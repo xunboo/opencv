@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{711538EC-E13D-3637-8F96-11DC1C596FCC}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\ippicv\ippicv_win\icv\include;C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\ippicv\ippicv_win\iw\include;C:\Source\opencv_cuda4dnn\build_no_tbb;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019.5.281\windows\mkl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\ippicv\ippicv_win\icv\include;C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\ippicv\ippicv_win\iw\include;C:\Source\opencv_cuda4dnn\build_no_tbb;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019.5.281\windows\mkl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\ippicv\ippicv_win\icv\include;C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\ippicv\ippicv_win\iw\include;C:\Source\opencv_cuda4dnn\build_no_tbb;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019.5.281\windows\mkl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Source\opencv_cuda4dnn\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Source/opencv_cuda4dnn/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Source/opencv_cuda4dnn -BC:/Source/opencv_cuda4dnn/build_no_tbb --check-stamp-file C:/Source/opencv_cuda4dnn/build_no_tbb/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeFindJavaCommon.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindJNI.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\ProcessorCount.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-3.15\Templates\CPackConfig.cmake.in;C:\Source\opencv_cuda4dnn\3rdparty\ippicv\ippicv.cmake;C:\Source\opencv_cuda4dnn\build_no_tbb\CMakeFiles\3.15.3\CMakeCCompiler.cmake;C:\Source\opencv_cuda4dnn\build_no_tbb\CMakeFiles\3.15.3\CMakeCXXCompiler.cmake;C:\Source\opencv_cuda4dnn\build_no_tbb\CMakeFiles\3.15.3\CMakeRCCompiler.cmake;C:\Source\opencv_cuda4dnn\build_no_tbb\CMakeFiles\3.15.3\CMakeSystem.cmake;C:\Source\opencv_cuda4dnn\cmake\FindCUDNN.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVCRTLinkage.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVCompilerOptimizations.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVCompilerOptions.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVDetectApacheAnt.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVDetectCUDA.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVDetectCXXCompiler.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVDetectDirectX.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVDetectOpenCL.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVDetectPython.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVDetectTrace.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVDetectVTK.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVDownload.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVExtraTargets.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVFindFrameworks.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVFindIPP.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVFindIPPIW.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVFindLAPACK.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVFindLibsGUI.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVFindLibsGrfmt.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVFindLibsPerf.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVFindLibsVideo.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVFindProtobuf.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVGenABI.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVGenAndroidMK.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVGenConfig.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVGenHeaders.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVGenSetupVars.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVInstallLayout.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVMinDepVersions.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVModule.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVPCHSupport.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVPackaging.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVUtils.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVVersion.cmake;C:\Source\opencv_cuda4dnn\cmake\checks\directx.cpp;C:\Source\opencv_cuda4dnn\cmake\checks\lapack_check.cpp;C:\Source\opencv_cuda4dnn\cmake\checks\opencl.cpp;C:\Source\opencv_cuda4dnn\cmake\checks\win32uitest.cpp;C:\Source\opencv_cuda4dnn\cmake\platforms\OpenCV-Windows.cmake;C:\Source\opencv_cuda4dnn\cmake\templates\OpenCVConfig-version.cmake.in;C:\Source\opencv_cuda4dnn\cmake\templates\OpenCVConfig.cmake.in;C:\Source\opencv_cuda4dnn\cmake\templates\OpenCVConfig.root-WIN32.cmake.in;C:\Source\opencv_cuda4dnn\cmake\templates\cmake_uninstall.cmake.in;C:\Source\opencv_cuda4dnn\cmake\templates\custom_hal.hpp.in;C:\Source\opencv_cuda4dnn\cmake\templates\cv_cpu_config.h.in;C:\Source\opencv_cuda4dnn\cmake\templates\cvconfig.h.in;C:\Source\opencv_cuda4dnn\cmake\templates\opencv_modules.hpp.in;C:\Source\opencv_cuda4dnn\cmake\templates\setup_vars_win32.cmd.in;C:\Source\opencv_cuda4dnn\modules\core\include\opencv2\core\version.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Source\opencv_cuda4dnn\build_no_tbb\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Source/opencv_cuda4dnn/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Source/opencv_cuda4dnn -BC:/Source/opencv_cuda4dnn/build_no_tbb --check-stamp-file C:/Source/opencv_cuda4dnn/build_no_tbb/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeFindJavaCommon.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindJNI.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\ProcessorCount.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-3.15\Templates\CPackConfig.cmake.in;C:\Source\opencv_cuda4dnn\3rdparty\ippicv\ippicv.cmake;C:\Source\opencv_cuda4dnn\build_no_tbb\CMakeFiles\3.15.3\CMakeCCompiler.cmake;C:\Source\opencv_cuda4dnn\build_no_tbb\CMakeFiles\3.15.3\CMakeCXXCompiler.cmake;C:\Source\opencv_cuda4dnn\build_no_tbb\CMakeFiles\3.15.3\CMakeRCCompiler.cmake;C:\Source\opencv_cuda4dnn\build_no_tbb\CMakeFiles\3.15.3\CMakeSystem.cmake;C:\Source\opencv_cuda4dnn\cmake\FindCUDNN.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVCRTLinkage.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVCompilerOptimizations.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVCompilerOptions.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVDetectApacheAnt.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVDetectCUDA.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVDetectCXXCompiler.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVDetectDirectX.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVDetectOpenCL.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVDetectPython.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVDetectTrace.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVDetectVTK.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVDownload.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVExtraTargets.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVFindFrameworks.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVFindIPP.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVFindIPPIW.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVFindLAPACK.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVFindLibsGUI.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVFindLibsGrfmt.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVFindLibsPerf.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVFindLibsVideo.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVFindProtobuf.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVGenABI.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVGenAndroidMK.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVGenConfig.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVGenHeaders.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVGenSetupVars.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVInstallLayout.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVMinDepVersions.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVModule.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVPCHSupport.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVPackaging.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVUtils.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVVersion.cmake;C:\Source\opencv_cuda4dnn\cmake\checks\directx.cpp;C:\Source\opencv_cuda4dnn\cmake\checks\lapack_check.cpp;C:\Source\opencv_cuda4dnn\cmake\checks\opencl.cpp;C:\Source\opencv_cuda4dnn\cmake\checks\win32uitest.cpp;C:\Source\opencv_cuda4dnn\cmake\platforms\OpenCV-Windows.cmake;C:\Source\opencv_cuda4dnn\cmake\templates\OpenCVConfig-version.cmake.in;C:\Source\opencv_cuda4dnn\cmake\templates\OpenCVConfig.cmake.in;C:\Source\opencv_cuda4dnn\cmake\templates\OpenCVConfig.root-WIN32.cmake.in;C:\Source\opencv_cuda4dnn\cmake\templates\cmake_uninstall.cmake.in;C:\Source\opencv_cuda4dnn\cmake\templates\custom_hal.hpp.in;C:\Source\opencv_cuda4dnn\cmake\templates\cv_cpu_config.h.in;C:\Source\opencv_cuda4dnn\cmake\templates\cvconfig.h.in;C:\Source\opencv_cuda4dnn\cmake\templates\opencv_modules.hpp.in;C:\Source\opencv_cuda4dnn\cmake\templates\setup_vars_win32.cmd.in;C:\Source\opencv_cuda4dnn\modules\core\include\opencv2\core\version.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Source\opencv_cuda4dnn\build_no_tbb\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Source/opencv_cuda4dnn/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Source/opencv_cuda4dnn -BC:/Source/opencv_cuda4dnn/build_no_tbb --check-stamp-file C:/Source/opencv_cuda4dnn/build_no_tbb/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeFindJavaCommon.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindJNI.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\ProcessorCount.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-3.15\Templates\CPackConfig.cmake.in;C:\Source\opencv_cuda4dnn\3rdparty\ippicv\ippicv.cmake;C:\Source\opencv_cuda4dnn\build_no_tbb\CMakeFiles\3.15.3\CMakeCCompiler.cmake;C:\Source\opencv_cuda4dnn\build_no_tbb\CMakeFiles\3.15.3\CMakeCXXCompiler.cmake;C:\Source\opencv_cuda4dnn\build_no_tbb\CMakeFiles\3.15.3\CMakeRCCompiler.cmake;C:\Source\opencv_cuda4dnn\build_no_tbb\CMakeFiles\3.15.3\CMakeSystem.cmake;C:\Source\opencv_cuda4dnn\cmake\FindCUDNN.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVCRTLinkage.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVCompilerOptimizations.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVCompilerOptions.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVDetectApacheAnt.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVDetectCUDA.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVDetectCXXCompiler.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVDetectDirectX.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVDetectOpenCL.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVDetectPython.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVDetectTrace.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVDetectVTK.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVDownload.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVExtraTargets.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVFindFrameworks.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVFindIPP.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVFindIPPIW.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVFindLAPACK.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVFindLibsGUI.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVFindLibsGrfmt.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVFindLibsPerf.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVFindLibsVideo.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVFindProtobuf.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVGenABI.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVGenAndroidMK.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVGenConfig.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVGenHeaders.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVGenSetupVars.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVInstallLayout.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVMinDepVersions.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVModule.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVPCHSupport.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVPackaging.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVUtils.cmake;C:\Source\opencv_cuda4dnn\cmake\OpenCVVersion.cmake;C:\Source\opencv_cuda4dnn\cmake\checks\directx.cpp;C:\Source\opencv_cuda4dnn\cmake\checks\lapack_check.cpp;C:\Source\opencv_cuda4dnn\cmake\checks\opencl.cpp;C:\Source\opencv_cuda4dnn\cmake\checks\win32uitest.cpp;C:\Source\opencv_cuda4dnn\cmake\platforms\OpenCV-Windows.cmake;C:\Source\opencv_cuda4dnn\cmake\templates\OpenCVConfig-version.cmake.in;C:\Source\opencv_cuda4dnn\cmake\templates\OpenCVConfig.cmake.in;C:\Source\opencv_cuda4dnn\cmake\templates\OpenCVConfig.root-WIN32.cmake.in;C:\Source\opencv_cuda4dnn\cmake\templates\cmake_uninstall.cmake.in;C:\Source\opencv_cuda4dnn\cmake\templates\custom_hal.hpp.in;C:\Source\opencv_cuda4dnn\cmake\templates\cv_cpu_config.h.in;C:\Source\opencv_cuda4dnn\cmake\templates\cvconfig.h.in;C:\Source\opencv_cuda4dnn\cmake\templates\opencv_modules.hpp.in;C:\Source\opencv_cuda4dnn\cmake\templates\setup_vars_win32.cmd.in;C:\Source\opencv_cuda4dnn\modules\core\include\opencv2\core\version.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Source\opencv_cuda4dnn\build_no_tbb\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\ZERO_CHECK.vcxproj">
+      <Project>{F00D3967-229D-35D4-9EDF-5DBAB3A0E21B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\openexr\IlmImf.vcxproj">
+      <Project>{24FCE2EB-B22D-39BF-9B16-F41AEB9333F0}</Project>
+      <Name>IlmImf</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\ade.vcxproj">
+      <Project>{2B38D324-CFAB-3360-8589-EE0DD9B4A46A}</Project>
+      <Name>ade</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\ippiw\ippiw.vcxproj">
+      <Project>{4900857E-B566-3C9B-B427-93931BF2A001}</Project>
+      <Name>ippiw</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\ittnotify\ittnotify.vcxproj">
+      <Project>{896A6615-0755-363D-B78A-03BD7EF52470}</Project>
+      <Name>ittnotify</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\libjasper\libjasper.vcxproj">
+      <Project>{94E6AC95-2A31-3856-A9C6-299861DDC444}</Project>
+      <Name>libjasper</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\libjpeg-turbo\libjpeg-turbo.vcxproj">
+      <Project>{0AEB1464-C6AF-374D-8B12-626ADC045B7A}</Project>
+      <Name>libjpeg-turbo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\libpng\libpng.vcxproj">
+      <Project>{7914DAD8-2ED0-3E74-A27A-F94479FED40D}</Project>
+      <Name>libpng</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\protobuf\libprotobuf.vcxproj">
+      <Project>{E0555C15-3A53-3C7C-B561-F90D76C879C7}</Project>
+      <Name>libprotobuf</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\libtiff\libtiff.vcxproj">
+      <Project>{B1F9573B-EC3C-38B2-8215-BE12AB5A174D}</Project>
+      <Name>libtiff</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\libwebp\libwebp.vcxproj">
+      <Project>{CE77CCF6-3FF5-313B-A68A-E39C491FCC88}</Project>
+      <Name>libwebp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\apps\annotation\opencv_annotation.vcxproj">
+      <Project>{DF25002C-3642-3123-A997-A8A2DEAF82E0}</Project>
+      <Name>opencv_annotation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\img_hash\opencv_img_hash.vcxproj">
+      <Project>{943B44AC-937D-3166-B57C-E9E5DE98F6F3}</Project>
+      <Name>opencv_img_hash</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\apps\interactive-calibration\opencv_interactive-calibration.vcxproj">
+      <Project>{26AA32F3-1479-3538-AC40-E0917E27E921}</Project>
+      <Name>opencv_interactive-calibration</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\ts\opencv_ts.vcxproj">
+      <Project>{6A6F63C7-A1A9-3294-9913-FFF6DE142284}</Project>
+      <Name>opencv_ts</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\apps\version\opencv_version.vcxproj">
+      <Project>{2C2081F1-9C1B-3FF8-8196-F376B49A1000}</Project>
+      <Name>opencv_version</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\apps\version\opencv_version_win32.vcxproj">
+      <Project>{CC36396C-1D18-355F-A727-8DACA30FA30F}</Project>
+      <Name>opencv_version_win32</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\.firstpass\videoio\opencv_videoio_plugins.vcxproj">
+      <Project>{9354066A-5094-357A-AB60-76772AF4FAE1}</Project>
+      <Name>opencv_videoio_plugins</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\apps\visualisation\opencv_visualisation.vcxproj">
+      <Project>{583930FD-A6CA-3EF9-99B9-650E4F5B21E3}</Project>
+      <Name>opencv_visualisation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\tools\waldboost_detector\opencv_waldboost_detector.vcxproj">
+      <Project>{5E31D228-B05F-334F-95ED-B3CBA6FA03D6}</Project>
+      <Name>opencv_waldboost_detector</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\opencv_world.vcxproj">
+      <Project>{62DFE570-660F-32D8-8BE9-C0B1397C0BA8}</Project>
+      <Name>opencv_world</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\opencv_world_AVX.vcxproj">
+      <Project>{AA66DA70-FD94-3FAE-9DD0-D2CB27375ED9}</Project>
+      <Name>opencv_world_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\opencv_world_AVX2.vcxproj">
+      <Project>{ABA938DE-C239-3CFC-BE53-C62A006F8C49}</Project>
+      <Name>opencv_world_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\opencv_world_AVX512_SKX.vcxproj">
+      <Project>{FECB418B-D490-32AF-9469-06A620F163E9}</Project>
+      <Name>opencv_world_AVX512_SKX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\opencv_world_SSE4_1.vcxproj">
+      <Project>{4C20DCE2-CBE5-37E8-86DE-C61CC11FFA45}</Project>
+      <Name>opencv_world_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\world\opencv_world_SSE4_2.vcxproj">
+      <Project>{B7178944-A861-34E7-9809-1E946F22FD88}</Project>
+      <Name>opencv_world_SSE4_2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\quirc\quirc.vcxproj">
+      <Project>{A280576D-7A98-3133-84AE-EF0BD8EAB69F}</Project>
+      <Name>quirc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Source\opencv_cuda4dnn\build_no_tbb\3rdparty\zlib\zlib.vcxproj">
+      <Project>{A30F47BC-A4E4-361C-A1D0-D3D69B5AF753}</Project>
+      <Name>zlib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

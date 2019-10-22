@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Source\opencv_cuda4dnn\build_no_tbb\CMakeFiles\361f42cea27f65e8ea75ba4a8e418077\pyopencv_generated_enums.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Source\opencv_cuda4dnn\build_no_tbb\CMakeFiles\4d54d734da09017d0b4f1f6204d3edae\gen_opencv_python_source.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Source\opencv_cuda4dnn\modules\python\bindings\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Source\opencv_cuda4dnn\build_no_tbb\modules\python_bindings_generator\CMakeFiles\gen_opencv_python_source" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A7BFB6EE-6FCB-3B89-AB66-ADD3D63A126A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

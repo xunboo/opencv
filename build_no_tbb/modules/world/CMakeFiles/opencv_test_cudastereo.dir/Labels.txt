@@ -1,0 +1,17 @@
+# Target labels
+ Extra
+ opencv_cudastereo
+ AccuracyTest
+# Source files and their labels
+C:/Source/opencv/opencv_contrib-4.1.1/modules/cudastereo/test/test_main.cpp
+ Extra
+ opencv_cudastereo
+ AccuracyTest
+C:/Source/opencv/opencv_contrib-4.1.1/modules/cudastereo/test/test_stereo.cpp
+ Extra
+ opencv_cudastereo
+ AccuracyTest
+C:/Source/opencv/opencv_contrib-4.1.1/modules/cudastereo/test/test_precomp.hpp
+ Extra
+ opencv_cudastereo
+ AccuracyTest
